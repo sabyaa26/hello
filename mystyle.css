@@ -368,13 +368,14 @@ footer p:nth-child(2){
 }
 
 .social-icons a:hover,
-.a-social-b a:hover i{
+.a-social-b a:hover{
 	background-color: #000000;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	transition: all ease 0.5s;
 }
 
-.social-icons a:hover i{
+.social-icons a:hover i,
+.a-social-b a:hover i{
 	color: #FFFFFF;
 	transition: all ease 0.5s;
 }
